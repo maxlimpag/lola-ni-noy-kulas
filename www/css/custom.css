@@ -1,0 +1,6 @@
+body {font-size:1.2em; text-transform:none}
+iframe, object, embed{max-width: 100%;}
+img { max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto}
+img.banner { display:block; margin:0px; padding:0px;}
+h2.title {margin-bottom:0px; padding-bottom:0px;}
+p.author {margin-top:0px; padding-top:0px;}
