@@ -4,3 +4,4 @@ img { max-width: 100%; height: auto; display: block; margin-left: auto; margin-r
 img.banner { display:block; margin:0px; padding:0px;}
 h2.title {margin-bottom:0px; padding-bottom:0px;}
 p.author {margin-top:0px; padding-top:0px;}
+h2.panel {margin-top:0px; padding-top:0px;}
