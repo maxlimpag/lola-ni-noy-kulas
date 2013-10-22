@@ -21,7 +21,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
         <link rel="stylesheet" type="text/css" href="css/custom.css" />
@@ -40,7 +40,7 @@
         
     <div data-role="page">
 
-    <div data-role="panel" id="panel" data-position="left" data-theme="f" data-display="push">
+    <div data-role="panel" id="panel" data-position-fixed="true" data-position="left" data-theme="f" data-display="push">
         <h2 class="panel">Menu</h2>
         <ul data-role="listview" data-theme="f">
             <li data-icon="delete"><a href="#main" data-rel="close">Close menu</a></li>
@@ -61,14 +61,14 @@
         </ul>
     </div>
 
-    <div data-role="header" data-theme="e">
+    <div data-role="header" data-position="fixed" data-theme="e">
         <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
         <h1>Lola Ni Noy Kulas</h1>
         <a data-iconpos="notext" href="index.html" data-role="button" data-icon="home" title="Home">Home</a>
     </div>
 
     <div data-role="content" role="main">
-
+        <img class="banner" src="img/so.jpg" />
         <h2>Katuyoan ning Libro</h2>
         <p>Ang “Matod Pa sa Lola ni Noy Kulas” usa ka proyekto sa Sun.Star Superbalita [Cebu] ug Smart nga daghan lang ang katuyoan. Nalakip na dinhi ang pagtala sa mga kinaraang pagtuo, kasugiran, panultihon ug balansayon sa katawhan sa nagkalainlaing dapit sa Cebu sa usa ka libro nga Binisaya.</p>
         <p>Apil pud sa katuyoan sa proyekto nga palambuon ang pinulongang Bisaya pinaagi sa pagsaysay sa Cebuano folklore sa pinulungan nga natawhan nga mao pud dali nga masabtan sa kadaghanan, labi na sa mga bata. Mao gani nga ang mga magsusuwat dinhi gikinahanglan nga sila lumolupyo sa Cebu ug adunay kasinatian sa kinabuhing Bisaya ug pinulongang Bisaya.</p>

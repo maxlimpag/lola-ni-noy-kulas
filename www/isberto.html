@@ -21,7 +21,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
         <link rel="stylesheet" type="text/css" href="css/custom.css" />
@@ -40,7 +40,7 @@
         
     <div data-role="page">
 
-    <div data-role="panel" id="panel" data-position="left" data-theme="f" data-display="push">
+    <div data-role="panel" id="panel" data-position-fixed="true" data-position="left" data-theme="f" data-display="push">
         <h2 class="panel">Menu</h2>
         <ul data-role="listview" data-theme="f">
             <li data-icon="delete"><a href="#main" data-rel="close">Close menu</a></li>
@@ -61,14 +61,14 @@
         </ul>
     </div>
 
-    <div data-role="header" data-theme="e">
+    <div data-role="header" data-position="fixed" data-theme="e">
         <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
         <h1>Lola Ni Noy Kulas</h1>
         <a data-iconpos="notext" href="index.html" data-role="button" data-icon="home" title="Home">Home</a>
     </div>
 
     <div data-role="content" role="main">
-
+        <img class="banner" src="img/isberto.jpg" />
         <h2>Pagpalambo sa Sugboanong Tradisyon</h2>
         <p>Sa ngalan sa Smart Communications, Inc. (SMART),  nagpasalamat kami sa Sun.Star Cebu ug Sun.Star Superbalita [Cebu] sa kahigayunan nga gihatag kanamo aron makatampo kami sa pagpalambo sa kultura ug pinulongang Bisaya.</p>
         <p>Dako ang among pagsalig nga ang “Matod Pa sa Lola ni Noy Kulas” usa ka paagi aron mahatagan nato og dakong bili ug dili nato hikalimtan ang atong Sugbuanong tradisyon.</p>
