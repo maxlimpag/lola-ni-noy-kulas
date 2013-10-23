@@ -554,7 +554,9 @@ Ang Mga Hurado: **Dr. Resil B. Mojares**, University of San Carlos Cebuano Studi
 
 Ang Tigtino: **Dr. Madrileña L. de la Cerna**, University of the Philippines in the Visayas Cebu College (UPVCC) Central Visayas Studies Center
 
-InnoPub Media: **Max T. Limpag**, **Marlen D. Limpag**
+InnoPub Media (ang nigama sa app) **Max T. Limpag**, **Marlen D. Limpag**
+
+Pagsadula:  **Elvis Somosot**, **Musikinesis**, **Rosemarie Borromeo**, **Sun.Star Cebu**, **Sun.Star Superbalita**
 
 Sun.Star Network Exchange: **Nini B. Cabaero**
 
